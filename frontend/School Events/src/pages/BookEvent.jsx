@@ -3,7 +3,7 @@ import { Container, Form, Button, Row, Col, Alert } from "react-bootstrap";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import PageNavigation from "../components/PageNavigation";
-
+import { BASE_URL } from "./utils";
 const validationSchema = Yup.object({
   firstName: Yup.string().required("First Name is required"),
   Class: Yup.string().required("Class is required"),
@@ -15,6 +15,18 @@ const validationSchema = Yup.object({
     .oneOf([true], "Terms must be accepted")
     .required("Terms must be accepted"),
 });
+const onSubmit = (values) => {
+  fetch(`${BASE_URL}/booking`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ ...values }),
+  })
+    .then((res) => res.json())
+    .then((data) => console.log())
+    .catch((err) => console.log(err));
+};
 
 function BookEvent() {
   const formik = useFormik({
