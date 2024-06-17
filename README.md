@@ -6,8 +6,7 @@
 
 ## Live Demo
 
-Visit our live my at [https://events-demo.com](https://events-demo.com) to explore the application firsthand.
-
+[https://www.youtube.com/watch?v=e_mstbuFWkk&ab_channel=TonyBlair]
 ## Getting Started
 
 To get a local copy up and running follow these simple steps:
