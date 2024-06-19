@@ -25,16 +25,11 @@ Ensure you have Node.js (v14 or above) installed on your machine.
 
 4. Start the development server:
 
-Now, open your browser and navigate to `http://localhost:3000/home` to see the application running locally.
+Now, open your browser and navigate to [`http://localhost:3000/home`] to see the application running locally.
 
-## Usage
+## Backend 
+Here is a repo link to the site's backend [https://github.com/BLAIR-MUNENE/backend-repo]
 
-After setting up the application locally, you can start exploring its features. Here are some key functionalities:
-
-- **Create Event**: Add new events with all necessary details.
-- **View Events**: Browse through all the events listed.
-- **Update Event**: Modify existing events' details.
-- **Delete Event**: Remove events from the list.
 
 ## Contributing
 
@@ -45,7 +40,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For inquiries, feedback, or collaboration opportunities, please contact us at:
+For inquiries, feedback, or collaboration opportunities, please contact me at:
 
 - Email: blairtchalla821@gmail.com
 - 
